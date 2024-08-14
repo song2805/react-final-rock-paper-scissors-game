@@ -30,14 +30,17 @@ body {
   margin: 0px 20px 30px;
   border-radius: 20px;
   text-align: center;
+  margin-top: 130px;
 }
 .score {
+  position: absolute;
+  transform: translateX(0%);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 43vw;
   height: 120px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 
@@ -49,6 +52,7 @@ body {
 .main {
   display: flex;
   justify-content: center;  
+  position: relative;
   width: 100vw;
 }
 
@@ -79,6 +83,7 @@ body {
 
 .word {
   color: #003285;
+  font-size: 1.7rem;
 }
 
 /* 가위 바위 보 Buttons style and Box */
@@ -138,10 +143,6 @@ body {
     height: 70px;
   }
 
-  .word {
-    font-size: 1.2rem;
-  }
-
   .text-result {
     font-size: 1rem;
   }
@@ -149,8 +150,16 @@ body {
     width: 50px;
   }
 
-  .item-img {
-    height: 5rem;
+  .box img {
+    height: 6.2rem;
   }
+   
+ .box h2 {
+    font-size: 1rem;
+   }
 
+.box h1 {
+   color: #003285;
+   font-size: 1.3rem;
+  }
 }

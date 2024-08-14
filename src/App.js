@@ -43,10 +43,10 @@ function App() {
   const [totalCount, setTotalCount] = useState(0);
 
   const play = (userChoice) => {
+    let computerChoice = randomChoice()
     console.log("선택됨!", userChoice);
     // setUserSelect 변수를 바꿔줄 setUserSelect() 함수를 써야한다.
     setUserSelect(choice[userChoice]);
-    let computerChoice = randomChoice()
     setComputerSelect(computerChoice)
     setResult(judgement(choice[userChoice], computerChoice));
 
