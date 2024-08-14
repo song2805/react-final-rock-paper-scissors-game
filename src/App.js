@@ -53,9 +53,9 @@ function App() {
     setTotalCount(totalCount + 1);
 
     // Score
-    if (judgement(choice[userChoice], computerChoice) == "Win") {
+    if (judgement(choice[userChoice], computerChoice) === "Win") {
       setYourScore(yourScore + 1);
-    } else if (judgement(choice[userChoice], computerChoice) == "Lose") {
+    } else if (judgement(choice[userChoice], computerChoice) === "Lose") {
       setComputerScore(computerScore + 1);
     }
   };
