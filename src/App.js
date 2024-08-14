@@ -107,7 +107,7 @@ function App() {
   return (
     <div>
 
-      <div className='main'>
+      <div className='reset-main'>
         <div className='score'>
           <div><h1>{yourScore}</h1></div>
           

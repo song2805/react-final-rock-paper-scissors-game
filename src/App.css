@@ -1,6 +1,6 @@
 body {
   background-color: #FFFBE6;
-   color: #003285;
+  color: #003285;
 }
 
 .title-img {
@@ -10,6 +10,7 @@ body {
 
 .reset-img {
   width: 70px;
+  
 }
 
 .title-img img {
@@ -17,6 +18,7 @@ body {
   flex-direction: column;
   /* width:70px; */
 }
+
 .title-img span {
   font-weight: 700;
   color: #55AD9B;
@@ -32,11 +34,21 @@ body {
   text-align: center;
   margin-top: 130px;
 }
+
+
+.reset-main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  
+}
+
 .score {
   position: absolute;
   transform: translateX(0%);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 43vw;
   height: 120px;
@@ -48,12 +60,12 @@ body {
   height: 10rem;
   border-radius: 50%;
 }
- 
+
 .main {
   display: flex;
-  justify-content: center;  
-  position: relative;
+  justify-content: center;
   width: 100vw;
+  /* position: relative; */
 }
 
 .main button {
@@ -67,8 +79,8 @@ body {
 
 
 .Win {
- border: 10px solid green;
- color: green;
+  border: 10px solid green;
+  color: green;
 }
 
 .Lose {
@@ -91,7 +103,9 @@ body {
   width: 80px;
 }
 
-.rps-a, .rps-b, .rps-c {
+.rps-a,
+.rps-b,
+.rps-c {
   border-radius: 50%
 }
 
@@ -127,6 +141,7 @@ body {
   .box {
     width: 200px;
     height: 200px;
+    margin-top: 150px;
   }
 
   .score {
@@ -134,10 +149,11 @@ body {
     height: 120px;
     margin-top: 40px;
   }
-  
+
   .main2 img {
     width: 70%;
   }
+
   .main button {
     width: 70px;
     height: 70px;
@@ -146,6 +162,7 @@ body {
   .text-result {
     font-size: 1rem;
   }
+
   .reset-img {
     width: 50px;
   }
@@ -153,13 +170,13 @@ body {
   .box img {
     height: 6.2rem;
   }
-   
- .box h2 {
-    font-size: 1rem;
-   }
 
-.box h1 {
-   color: #003285;
-   font-size: 1.3rem;
+  .box h2 {
+    font-size: 1rem;
+  }
+
+  .box h1 {
+    color: #003285;
+    font-size: 1.1rem;
   }
 }
