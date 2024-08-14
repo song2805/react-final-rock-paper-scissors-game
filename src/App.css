@@ -149,4 +149,8 @@ body {
     width: 50px;
   }
 
+  .item-img {
+    height: 5rem;
+  }
+
 }
