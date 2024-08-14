@@ -1,0 +1,152 @@
+body {
+  background-color: #FFFBE6;
+   color: #003285;
+}
+
+.title-img {
+  text-align: center;
+  margin: 50px;
+}
+
+.reset-img {
+  width: 70px;
+}
+
+.title-img img {
+  display: flex;
+  flex-direction: column;
+  /* width:70px; */
+}
+.title-img span {
+  font-weight: 700;
+  color: #55AD9B;
+  cursor: pointer;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border: 10px solid #DDE6ED;
+  margin: 0px 20px 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+.score {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 43vw;
+  height: 120px;
+  margin-top: 40px;
+}
+
+
+.item-img {
+  height: 10rem;
+  border-radius: 50%;
+}
+ 
+.main {
+  display: flex;
+  justify-content: center;  
+  width: 100vw;
+}
+
+.main button {
+  border: none;
+  background-color: white;
+  margin: 0 20px 0;
+  width: 100px;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.Win {
+ border: 10px solid green;
+ color: green;
+}
+
+.Lose {
+  border: 10px solid red;
+  color: red;
+}
+
+.Tie {
+  border: 10px solid black;
+  color: black;
+}
+
+.word {
+  color: #003285;
+}
+
+/* 가위 바위 보 Buttons style and Box */
+.main2 img {
+  width: 80px;
+}
+
+.rps-a, .rps-b, .rps-c {
+  border-radius: 50%
+}
+
+.rps-a:hover {
+  box-shadow: rgb(240, 80, 80) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.rps-b:hover {
+  box-shadow: rgb(231, 178, 72) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.rps-c:hover {
+  box-shadow: rgb(97, 244, 89) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.text-total {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #003285;
+}
+
+
+
+/* 버튼 아이콘에 마우스 올리면 손모양으로 바뀌게하기 (to change from button Icons to hand shape */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+@media (max-width: 425px) {
+
+  .box {
+    width: 200px;
+    height: 200px;
+  }
+
+  .score {
+    width: 43vw;
+    height: 120px;
+    margin-top: 40px;
+  }
+  
+  .main2 img {
+    width: 70%;
+  }
+  .main button {
+    width: 70px;
+    height: 70px;
+  }
+
+  .word {
+    font-size: 1.2rem;
+  }
+
+  .text-result {
+    font-size: 1rem;
+  }
+  .reset-img {
+    width: 50px;
+  }
+
+}
